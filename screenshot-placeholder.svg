@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230">
+<rect width="800" height="230" fill="#f5f5f5"/>
+<rect x="1" y="1" width="798" height="228" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="400" y="95" font-family="Arial,sans-serif" font-size="23" text-anchor="middle" fill="#333">Місце для скриншота index16.html</text>
+<text x="400" y="135" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#555">Зробіть власний скриншот у вузькому вікні</text>
+<text x="400" y="162" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#555">і збережіть його як screenshot-index16.png</text>
+</svg>

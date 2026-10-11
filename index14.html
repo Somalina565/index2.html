@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Етап 14 — HTML-таблиці</title>
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    h1 { color: #228b22; }
+    #styled-table, #styled-table th, #styled-table td { border: 1px solid #228b22; border-collapse: collapse; }
+    #styled-table { width: 70%; margin: 20px 0; }
+    #styled-table th, #styled-table td { padding: 10px; text-align: left; }
+    #styled-table th { background-color: #e0fae0; }
+  </style>
+</head>
+<body>
+  <h1>Етап 14: Робота з таблицями</h1>
+  <h2>Принцип: відображення даних</h2>
+  <p>Таблиці використовують для структурованих даних, а не для створення макета сторінки.</p>
+  <h3>Таблиця 1: Стилізована</h3>
+  <table id="styled-table">
+    <tr><th>Тег</th><th>Призначення</th></tr>
+    <tr><td>&lt;tr&gt;</td><td>Визначає рядок у таблиці</td></tr>
+    <tr><td>&lt;td&gt;</td><td>Визначає комірку з даними</td></tr>
+  </table>
+  <p>Рамки та колір фону допомагають читати дані.</p>
+  <hr>
+  <h3>Таблиця 2: Нестилізована</h3>
+  <table>
+    <tr><th>Тег</th><th>Призначення</th></tr>
+    <tr><td>&lt;tr&gt;</td><td>Визначає рядок у таблиці</td></tr>
+    <tr><td>&lt;td&gt;</td><td>Визначає комірку з даними</td></tr>
+  </table>
+  <hr>
+  <h3>Таблиця 3: Мої улюблені речі (без CSS)</h3>
+  <table>
+    <tr><th>Категорія</th><th>Назва</th><th>Причина</th></tr>
+    <tr><td>Фільм</td><td>Джон Вік</td><td>Динамічний сюжет</td></tr>
+    <tr><td>Гра</td><td>Undertale</td><td>Цікаві персонажі</td></tr>
+    <tr><td>Страва</td><td>Спагеті з сиром</td><td>Смачний сир</td></tr>
+    <tr><td>Місто</td><td>Нью-Йорк</td><td>Велике місто</td></tr>
+  </table>
+</body>
+</html>

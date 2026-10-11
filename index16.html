@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Етап 16 — Блокові та вбудовані елементи</title>
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .block-element { display: block; border: 2px dashed #ff7f50; background: #fff0e0; padding: 10px; margin-bottom: 10px; }
+    .inline-element { display: inline; border: 2px solid #00a6d6; background: #e0f8ff; padding: 2px 5px; }
+    .experiment { border: 1px solid #777; padding: 12px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Етап 16: Блокові та вбудовані елементи</h1>
+  <h2>Принцип: потік документа (Document Flow)</h2>
+  <p>Блокові елементи починаються з нового рядка й займають доступну ширину. Вбудовані елементи займають лише місце свого вмісту.</p>
+  <h3>Блоковий елемент (&lt;div&gt;)</h3>
+  <div class="block-element">Я — div (блоковий елемент). Я займаю всю доступну ширину.</div>
+  <div class="block-element">Наступний div починається з нового рядка.</div>
+  <h3>Вбудовані елементи (&lt;span&gt;)</h3>
+  <p>Текст іде тут, <span class="inline-element">перший span</span>, потім текст, <span class="inline-element">другий span</span> — вони розміщуються в одному рядку, поки вистачає місця.</p>
+  <div class="experiment">
+    <h3>Експеримент зі зміною ширини</h3>
+    <p>Зменште ширину вікна браузера та подивіться, як текст і вбудовані елементи переходять на наступні рядки.</p>
+    <p><strong>Обов'язкова дія:</strong> зробіть скриншот сторінки у вузькому вікні браузера, збережіть його в цій теці під назвою <code>screenshot-index16.png</code> і додайте замість зображення-підказки нижче.</p>
+  </div>
+  <div>
+    <h3>Мій скриншот експерименту</h3>
+    <img src="screenshot-placeholder.svg" alt="Підказка: замініть це зображення власним скриншотом index16.html" style="max-width:100%; height:auto; border:1px solid #999;">
+  </div>
+</body>
+</html>
